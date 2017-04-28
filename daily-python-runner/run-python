@@ -1,0 +1,3 @@
+#!/bin/sh
+/bin/sh /root/envvars.sh
+/bin/sh -c "${CRONJOB}" >> /var/log/cron 2>&1
